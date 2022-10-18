@@ -1,0 +1,47 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{luatexja-fontspec}
+\usepackage{fontspec-luatex}
+\usepackage{unicode-math}
+\usepackage{color}
+\usetheme{metropolis}
+\renewcommand{\kanjifamilydefault}{\gtdefault}% 既定をゴシック体に
+\setmainjfont{Noto Sans CJK JP}
+\setsansjfont{Noto Sans CJK JP}
+\setmonojfont{Noto Sans CJK JP}
+\title{差があるとはなにか}
+\begin{document}
+    \begin{frame}
+        \titlepage
+    \end{frame}
+    \begin{frame}
+        \frametitle{ABテストでよくあること}
+        \begin{center}
+        \begin{tabular}{ccc}
+            \hline
+            パターン & サンプル数 & コンバージョン数 \\
+            original & 150 & 30 \\
+            test & 200 & 55 \\
+            \hline
+        \end{tabular}
+        \end{center}
+        \begin{itemize}
+            \item これは差があるのか？
+            \item どうやって差を定義するのか？
+        \end{itemize}
+    \end{frame}
+    \begin{frame}
+        \frametitle{検定}
+        \begin{itemize}
+            \item 複数の集団の間に差があるかどうかを調べることを\textcolor{red}{検定}という
+            \begin{block}{検定の方法}
+                \begin{itemize}
+                    \item 2群間の差がないと仮定する（\textcolor{red}{帰無仮説}）
+                    \item 帰無仮説から差があるとしか考えられない事実を導き出す
+                    \begin{itemize}
+                        \item 帰無仮説を\textcolor{red}{棄却}して、\textcolor{red}{対立仮説}を支持する
+                    \end{itemize}
+                \end{itemize}
+            \end{block}
+        \end{itemize}
+    \end{frame}
+\end{document}
