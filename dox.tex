@@ -13,6 +13,7 @@
     \begin{frame}
         \titlepage
     \end{frame}
+
     \begin{frame}
         \frametitle{ABテストでよくあること}
         \begin{center}
@@ -29,6 +30,7 @@
             \item どうやって差を定義するのか？
         \end{itemize}
     \end{frame}
+
     \begin{frame}
         \frametitle{検定}
         \begin{itemize}
@@ -43,5 +45,59 @@
                 \end{itemize}
             \end{block}
         \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{検定と2種類の誤り}
+            \begin{itemize}
+                \item 帰無仮説$H_0$を設定する
+                \item $H_0$が棄却されたとき対立仮説$H_1$を設定する
+                \item $H_0$が棄却できるとき「\textcolor{red}{有意である}」といえる
+            \end{itemize}
+            \begin{block}{第1種の誤り}
+                \begin{itemize}
+                    \item $H_0$が正しい（成立している）のに棄却されること
+                    \item この確率は$\alpha$と表される
+                \end{itemize}
+                
+            \end{block}
+            \begin{block}{第2種の誤り}
+                \begin{itemize}
+                    \item $H_0$が正しくない（成立していない）のに棄却されないこと
+                    \item この確率は$\beta$と表される
+                \end{itemize}
+            \end{block}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{ABテストの例}
+        \begin{itemize}
+            \item 帰無仮説$H_0$: originalとtestに差はない
+            \item 対立仮説$H_1$: originalとtestに差がある
+            \item 第1種の誤り: \textcolor{red}{originalとtestに差がないのに棄却すること}
+            \begin{itemize}
+                \item 差がなかったら棄却されるべきではない
+            \end{itemize}
+            \item 第2種の誤り: \textcolor{red}{originalとtestに差があるのに棄却されないこと}
+            \begin{itemize}
+                \item 差があったら棄却されるべき
+            \end{itemize}
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{イカサマコインの例}
+        あるコインがイカサマかどうか？
+        \begin{itemize}
+            \item 帰無仮説$H_0$: コインはイカサマではない($P = 0.5$)
+            \item 対立仮説$H_1$: コインはイカサマである($P \neq 0.5$)
+        \end{itemize}
+        $P$ コインが表を出す確率
+        \vspace{1cm}
+        \begin{block}{$H_0$の棄却方式（コインがイカサマであるとする方式）}
+            \begin{itemize}
+                \item 6回投げて、表が出た回数が0あるいは6回の場合に棄却する
+            \end{itemize}
+        \end{block}
     \end{frame}
 \end{document}

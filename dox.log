@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.10.19)  19 OCT 2022 00:45
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.10.19)  19 OCT 2022 01:30
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/taro/ab_test/dox.tex
@@ -1373,7 +1373,7 @@ LaTeX Font Info:    Font shape `JY3/NotoSansCJKJP(0)/m/n' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 31; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 32; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -1381,25 +1381,31 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 31; it cannot be
 (fontspec)                  The requested feature is "Numbers={Monospaced}". 
 
 LaTeX Font Info:    Font shape `JT3/NotoSansCJKJP(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 31.
+(Font)              scaled to size 11.54663pt on input line 32.
 LaTeX Font Info:    Font shape `JY3/NotoSansCJKJP(0)/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 31.
+(Font)              scaled to size 11.54663pt on input line 32.
 LaTeX Font Info:    Font shape `JT3/NotoSansCJKJP(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 31.
+(Font)              scaled to size 11.54663pt on input line 32.
 LaTeX Font Info:    Font shape `JY3/NotoSansCJKJP(0)/b/n' will be
-(Font)              scaled to size 11.54663pt on input line 31.
+(Font)              scaled to size 11.54663pt on input line 32.
 [2
 
 ]
 LaTeX Font Info:    Font shape `JT3/NotoSansCJKJP(0)/b/n' will be
-(Font)              scaled to size 10.53629pt on input line 47.
+(Font)              scaled to size 10.53629pt on input line 48.
 LaTeX Font Info:    Font shape `JY3/NotoSansCJKJP(0)/b/n' will be
-(Font)              scaled to size 10.53629pt on input line 47.
+(Font)              scaled to size 10.53629pt on input line 48.
 LaTeX Font Info:    Font shape `JT3/NotoSansCJKJP(0)/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 47.
+(Font)              scaled to size 8.65997pt on input line 48.
 LaTeX Font Info:    Font shape `JY3/NotoSansCJKJP(0)/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 47.
+(Font)              scaled to size 8.65997pt on input line 48.
  [3
+
+] [4
+
+] [5
+
+] [6
 
 ]
 \tf@nav=\write6
@@ -1411,29 +1417,29 @@ LaTeX Font Info:    Font shape `JY3/NotoSansCJKJP(0)/m/n' will be
 \tf@snm=\write8
 
 \openout8 = dox.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (/home/taro/ab_test/dox.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `dox.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33138 strings out of 481365
+ 33159 strings out of 481365
  125171,1373583 words of node,token memory allocated
- 32430 words of node memory still in use:
-   49 hlist, 10 vlist, 104 rule, 6 local_par, 177 glue, 192 kern, 38 penalty, 104 glyph, 12510 attribute, 196 glue_spec, 684 attribute_list, 4 write, 54 user_defined, 8 pdf_literal, 50 pdf_colorstack nodes
-   avail lists: 1:5,2:7071,3:103,4:351,5:44,6:16,7:646,8:6,9:380,10:28,11:16
- 48711 multiletter control sequences out of 65536+600000
- 82 fonts using 223953875 bytes
+ 36231 words of node memory still in use:
+   51 hlist, 10 vlist, 119 rule, 7 local_par, 12 math, 197 glue, 193 kern, 38 penalty, 143 glyph, 13719 attribute, 328 glue_spec, 747 attribute_list, 4 write, 52 user_defined, 8 pdf_literal, 36 pdf_colorstack nodes
+   avail lists: 1:5,2:13505,3:187,4:454,5:37,6:27,7:1001,8:6,9:537,10:28,11:24
+ 48726 multiletter control sequences out of 65536+600000
+ 82 fonts using 223953779 bytes
  71i,13n,109p,1820b,949s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc></usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc></usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc>
-Output written on dox.pdf (3 pages, 29449 bytes).
+</usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc></usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc></usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc>
+Output written on dox.pdf (6 pages, 44895 bytes).
 
-PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 131072)
+PDF statistics: 104 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

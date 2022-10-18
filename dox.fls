@@ -429,7 +429,7 @@ INPUT /home/taro/ab_test/dox.nav
 INPUT /home/taro/.texlive2019/texmf-var/luatex-cache/generic-dev/fonts/otl/lmsans8-regular.luc
 INPUT /home/taro/.texlive2019/texmf-var/luatex-cache/generic-dev/fonts/otl/lmsans12-regular.luc
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-glyphlist.lua
+INPUT /home/taro/.texlive2019/texmf-var/luatex-cache/generic-dev/fonts/otl/lmsans9-regular.luc
 OUTPUT /home/taro/ab_test/dox.nav
 OUTPUT /home/taro/ab_test/dox.toc
 OUTPUT /home/taro/ab_test/dox.snm
