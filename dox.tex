@@ -9,6 +9,7 @@
 \setsansjfont{Noto Sans CJK JP}
 \setmonojfont{Noto Sans CJK JP}
 \title{差があるとはなにか}
+\author{もりた}
 \begin{document}
     \begin{frame}
         \titlepage
@@ -129,5 +130,30 @@
             \begin{itemize}
                 \item $\beta$は一般的に大きい
             \end{itemize}
+    \end{frame}
+    \begin{frame}
+        \frametitle{つまり、どういうことか}
+        \begin{itemize}
+            \item $H_0$を棄却する：誤りであってもその確率$\alpha$は小さい 
+            \begin{itemize}
+                \item \textbf{\textcolor{red}{積極的に結論を述べることができる}}
+            \end{itemize}
+            \item $H_1$を棄却しない：非常に高い確率$\beta$で誤っているかもしれない
+            \begin{itemize}
+                \item \textbf{\textcolor{red}{消極的にしか結論を述べることができない}}
+            \end{itemize}
+            \begin{block}{イカサマコインの例}
+                \begin{itemize}
+                    \item 6回とも表、あるいは裏が出たら、「コインはイカサマである」と断定してもよい
+                    \item それ以外の場合は「イカサマとは言えない」と消極的にしか述べることができない
+                \end{itemize}
+            \end{block}
+            \begin{block}{一般的な話}
+                \begin{itemize}
+                    \item \textbf{\textcolor{red}{有意差なし}という言い方は正しくない}
+                \end{itemize}
+            \end{block}
+        \end{itemize}
+
     \end{frame}
 \end{document}
